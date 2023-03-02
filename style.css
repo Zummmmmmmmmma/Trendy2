@@ -287,25 +287,48 @@ a {
     font-weight: 500;
     font-size: 14px;
 }
-.card__text{
+
+.card__text {
     text-align: center;
 }
-.shopping__title{
+
+.shopping__title {
     text-transform: uppercase;
-    font-weight: 600;   
+    font-weight: 600;
     font-size: 42px;
     line-height: 63px;
 }
-.shopping__container{
+
+.shopping__container {
     transform: translateY(-100px);
 }
-.shopping__cards{
+
+.shopping__cards {
     display: flex;
     justify-content: space-between;
 }
-.nav__link:hover{
+
+.nav__link:hover {
     color: #F15C43
 }
-.header__men:hover path{
+
+.header__men:hover path {
     fill: #F15C43;
+}
+
+.play__img {
+    animation: animate 3s infinite;
+}
+
+@keyframes animate {
+    0% {
+        transform: rotateZ(0deg);
+    }
+
+    100% {
+        transform: rotateZ(360deg);
+    }
+}
+.btn__animate:hover{
+    background-color: #a13d2d;
 }
